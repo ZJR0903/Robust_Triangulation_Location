@@ -1,0 +1,4 @@
+<launch>
+  <rosparam command="load" file="$(find landmarks_publish)/cfg/config.yaml" />
+  <node pkg="landmarks_publish" type="landmarks_publish_node" name="landmarks_publish_node" output="screen"/>
+</launch>

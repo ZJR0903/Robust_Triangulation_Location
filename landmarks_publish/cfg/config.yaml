@@ -1,0 +1,14 @@
+tracking_frame: "base_link"
+laser_topic_name: "scan_1"
+landmark_topic_name: "landmark"
+landmark_publish_period: 5
+translation_weight: 1
+rotation_weight: 0
+intensity_upper: 1220
+intensity_lower: 1210
+detect_id_mode: 1
+close_tolerance: 0.50
+detect_frame_count: 3
+dis_thres: 2.0
+is_pub_empty: false
+publish_mode: "initial_local" # "local"
